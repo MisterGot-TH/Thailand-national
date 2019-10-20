@@ -2,44 +2,19 @@
 @import url("https://fonts.googleapis.com/css?family=Sriracha&display=swap&subset=thai");
 .hero {
   height: 100vh;
-  background: url(../img/Wallpaper-Thailand.jpg) no-repeat;
+  background: url(../img/Wallpaper-Thailand.jpg) no-repeat center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 0 10vw;
   color: #fff;
-}
-
-.hero h1 {
-  position: relative;
-  font-size: 4rem;
-  text-transform: uppercase;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.2);
-  padding: 2rem;
-  border-radius: 20px 0;
-}
-
-.hero h1:before, .hero h1:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 50%;
-}
-
-.hero h1:before {
-  left: 0;
-  border-bottom: 6px solid #fff;
-}
-
-.hero h1:after {
-  right: 0;
-  border-top: 6px solid #fff;
 }
 
 .main-header {
@@ -122,7 +97,7 @@
 .main-header .menu-icon_line {
   display: block;
   position: relative;
-  background: #333;
+  background: #fff;
   height: 2px;
   width: 20px;
   border-radius: 4px;
@@ -136,7 +111,7 @@
   height: 100%;
   width: 100%;
   border-radius: 4px;
-  background: #000;
+  background: #fff;
   -webkit-transition: background .8s ease;
   transition: background .8s ease;
 }
@@ -285,6 +260,12 @@
   }
   .hero h1 {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #container h1.title-name {
+    font-size: 40px;
   }
 }
 
@@ -624,7 +605,7 @@
   bottom: 0;
 }
 
-.position-title h2 {
+.position-title h1 {
   margin: 0;
   padding: .5rem 1rem;
 }
