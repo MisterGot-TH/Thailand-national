@@ -1,2 +1,2 @@
-﻿# Thailand Nationl Team
-[Link Website](https://mistergot-th.github.io/Thailand-nationl/)
+﻿# Thailand National Team
+[Link Website](https://mistergot-th.github.io/Thailand-national/)
